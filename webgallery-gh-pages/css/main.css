@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #333333;   
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: white;                      /*change your Bkg color*/
+}
+
+a, a:active, a:visited {
+  color: #0066CC;
+}
+
+.content {
+  margin: 0 auto;
+  min-width: 480px;
+  padding-left: 20px;
+}
+
+
+footer {
+  border-top: 1px dotted #999999;
+  clear: both;
+  padding: 1em 0;
+}
+
+footer p {
+ font-size: 150%;               /*font size in footer*/
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: #C8C1B7;
+  border-bottom: 1px solid #999999;
+  background-image: url("../img/destinybanner.png"); /*change your banner image*/
+  height: 60px;
+  position: relative;
+  width: 100%;
+}
+
+header h1 {
+  float: left;
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0;
+}
+
+header h1 a, header h1 a:visited, header h1 a:active {
+  color: #333333;
+}
+
+header nav ul {
+  float: right;
+  margin: 0;
+}
+
+header nav > ul li {
+  border-bottom: 3px solid white;
+  height: 100%;
+  float: left;
+  font-weight: 600;
+  list-style-type: none;
+  margin-right: 2rem;
+  transition: border-color 200ms ease-in-out;
+  /* See: https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions */
+}
+
+header nav > ul li:hover, header nav > ul li.active {
+  border-bottom-color: #0066CC;
+}
+
+header nav > ul li:hover a, header nav > ul li.active a {
+  color: #0066CC;
+}
+
+header nav a, header nav a:visited {
+  display: block;
+  line-height: 60px;
+  text-decoration: none;
+  color: white;                         /*changes banner text color*/
+  transition: color 200ms ease-in-out;
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery li {
+  background-color: #333333;
+  border: 1px solid #999999;
+  border-radius: 2px;
+  float: left;
+  list-style-type: none;
+  padding: 5px;
+  margin: 16px;
+  
+}
+
+.gallery li img {
+  border-radius: 2px;
+  vertical-align: top;
+  height: 200px;
+  width: 200px;
+}
+
+.gallery li img:hover {
+  opacity: 0.5;
+}
+
+.profile-photo {
+}
+
+.profile-content {
+}
+#name{
+  font-family: "Lobster";
+  color: #7A6056;
+}
+#linkTop{
+  font-family: "Shadows Into Light";
+  color: white;
+  font-size: 200%;
+}
+#gallery{
+  margin-top: 2%;
+  font-family: "Lobster";
+  color: #A8EFE8;
+  font-size: 250%;
+
+}
+
+p{
+  font-family: "Poiret One";
+  color: #7A6056;
+  font-size: 150%;
+}
+
+#wrap{
+  text-align: center;
+  margin-bottom: 23%;
+  background-image: url("../img/rain.gif");
+  background-size: 50%;
+  background-color: #F8ABAC;
+  height: 300px;
+
+}
+
+#girl{
+  margin-top: 3%;
+}
+#pic{
+  object-fit: cover;
+}
+#text{
+  margin-left: 5%;
+}
+#send{
+  color: #F8ABAC;
+  background-color: white;
+  border: 2px #F8ABAC solid;
+  border-radius: 8px;
+  font-size: 130%;
+  font-family: "Shadows Into Light";
+}
+
+#blank{
+  height: 200px;
+  width: 95%;
+  overflow: scroll;
+  border: 2px #F8ABAC solid;
+  margin: 0 auto;
+  background-image: url(../img/bubble.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 10%;
+}
+
+#caption{
+  color: white;
+}
+
+#reply{
+  text-align: center;
+}
+#theDiv{
+  text-align: center;
+}
